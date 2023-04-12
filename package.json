@@ -1,0 +1,25 @@
+{
+  "name": "cypherock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bip32": "^2.0.6",
+    "bip39": "^3.0.2",
+    "bitcoin-rpc": "^0.2.1",
+    "bitcoind-rpc": "^0.9.1",
+    "bitcoinjs-lib": "^6.1.0",
+    "blockchain.info": "^2.12.1",
+    "dotenv": "^10.0.0",
+    "hdkey": "^1.1.1",
+    "mysql2": "^2.3.0",
+    "sqlite3": "^5.1.6"
+  }
+}
