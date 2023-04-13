@@ -1,9 +1,6 @@
 # Node.js Bitcoin Wallet
 This repository contains a node.js script that allows you to create and import bitcoin wallets using BIP39 Mnemonic, and the mnemonics are stored in sqlite locally, generate an unused address for the same. It also allows to get the bitcoin balance and transaction details for a address on the bitcoin testnet.
 
-You can install these dependencies using `npm`. To do so run the following in command line.  
-`npm install axios@0.24.0 hdkey@1.1.1  bip39@3.0.2 sqlite3@5.1.6 bitcoinjs-lib@6.1.0`
-
 ## Dependencies
 The script requires following dependencies
 * [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib)
@@ -11,6 +8,10 @@ The script requires following dependencies
 * [hdkey](https://github.com/cryptocoinjs/hdkey)
 * [sqlite3](https://github.com/TryGhost/node-sqlite3)
 * [axios](https://github.com/axios/axios)
+
+
+You can install these dependencies using `npm`. To do so run the following in command line.  
+`npm install axios@0.24.0 hdkey@1.1.1  bip39@3.0.2 sqlite3@5.1.6 bitcoinjs-lib@6.1.0`
 
 ## Usage
 To use this script simply run 
